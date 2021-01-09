@@ -1,0 +1,226 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+body{
+  font-family:  'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+.text-title{
+  font-family:  'Oswald' cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
+}
+
+.btn-black {
+background: transparent;
+text-transform:capitalize;
+font-size: 0.8rem !important;
+color:var(--mainDark);
+border-radius:0 !important;
+border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size: 1.2rem;
+  color:var(--mainYellow);
+}
+.navbar{
+  background: var(--mainBlue);
+  position:fixed !important;
+  overflow:hidden !important;
+  z-index:1 !important;
+  width:100% !important;
+  top:0 !important;
+  height:70px;
+}
+.py-5{
+  margin-top:10px !important;
+}
+.nav-link{
+  color:var(--mainWhite) !important;
+  font-size: 1.3rem;
+  text-transform:capitalize !important;
+}
+.nav-link:hover{
+  color:var(--lightBlue) !important;
+  font-size: 1.5rem;
+}
+.image{
+  position:relative;
+  
+  
+}
+.image img{
+  
+  width:100%;
+  max-height:700px;
+  min-height:250px;
+  
+}
+.image .shop-now{
+  position:absolute;
+  top: 70%;
+  left:70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color:white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border:1px solid  black !important;
+  cursor: pointer;
+  border-radius:5px;
+  display:flex;
+  
+  width:8rem;
+  
+}
+.image .shop-now:hover{
+   background-color: white;
+  color:black;
+}
+@media all and (max-width:30rem){
+  .image .shop-now{
+    position:absolute;
+  top: 50%;
+  left:75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color:white;
+  font-size: 16px;
+  padding: 8px 24px;
+  border:1px solid black !important;
+  cursor: pointer;
+  border-radius:10px;
+  display:flex;
+  height:2.5rem;
+  width:8rem;
+  }
+  .image img{
+    
+    width:100%;
+    height:100%;
+    
+  }
+  .explore {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border:1px solid  black !important;
+    cursor: pointer;
+    border-radius:5px;
+  }
+  .explore:hover{
+    background-color: white;
+    color:black;
+    border:1px solid  black !important;
+    cursor: pointer;
+    border-radius:5px;
+    text-decoration:none;
+  }
+  .footer-title{
+    padding-bottom:20px;
+  }
+}
+.container{
+  margin-top: 100px;
+
+}
+
+.footer-title
+{
+  background:var(--mainBlue);	
+  color:black;
+  padding-top:20px;
+  text-align: center;
+  font-size: 2rem;
+
+}
+.footer-title .footer-icon 
+{
+	font-size:2rem;
+	color:var(--mainWhite);	
+	transition: all 0.4 ease-in-out;
+}
+.footer-title .footer-icon:hover 
+{
+	color: var(--lightBlue);	
+}
+.footer-contact .footer-icon 
+{
+	font-size:1.5rem;
+	color:var(--mainBlue);	
+	transition: all 0.4 ease-in-out;
+}
+.footer-contact .footer-icon:hover 
+{
+	color:var(--mainYellow);	
+}
+.footer-contact{
+border:1px solid var(--mainBlue);
+padding-top:20px;
+padding-bottom: 0;
+
+}
+footer{
+  padding-top: 130px;
+}
+.explore {
+  background-color: black;
+  color:white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border:1px solid  black !important;
+  cursor: pointer;
+  border-radius:5px;
+}
+.explore:hover{
+  background-color: white;
+  color:black;
+  border:1px solid  black !important;
+  cursor: pointer;
+  border-radius:5px;
+  text-decoration:none;
+}
+
+
+.about-img_container 
+{
+position:relative;	
+}
+.about-img_container::before 
+{
+	content:"";
+	position:absolute;
+	top:-1.5rem;
+	left:-1.7rem;
+	width:100%;
+	height:100%;
+	outline:0.5rem solid var(--lightBlue);
+	z-index:-1;
+	transition:all 0.5s linear;
+}
+.about-img_container:hover:before 
+{
+	top:0;
+	left:0;
+	
+}
