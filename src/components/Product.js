@@ -24,7 +24,7 @@ export default class Product extends Component {
                         value.addToCart(id);
                         value.openModal(id);
                     }}>
-                    {inCart?(<p className="text-capitalize mb-0" disabled>in cart</p>):(<i className="fas fa-cart-plus"/>)}
+                    {inCart?(<p className=" mb-0" disabled><i className="fas fa-shopping-cart"/> додадено</p>):(<i className="fas fa-cart-plus"/>)}
                     </button>
                    </div>
                    )}
@@ -36,8 +36,9 @@ export default class Product extends Component {
                            {title}
                        </p>
                        <h5 className="text-blue font-italic mb-0">
-                           <span className="mr-1">$</span>
-                           {price}
+                          {price} 
+                          <span className="mr-1">ден.</span>
+                           
                        </h5>
                    </div>
                </div>

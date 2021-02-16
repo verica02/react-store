@@ -25,25 +25,25 @@ export default class Details extends Component {
                             </div>
                             {/*product text*/}
                             <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                                <h2>model: {title}</h2>
+                                <h2>модел: {title}</h2>
                                 <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                                    made by:<span className="text-uppercase">
+                                    Бренд:<span className="text-uppercase">
                                         {company}
                                     </span>
                                 </h4>
                                 <h4 className="text-blue">
                                     <strong>
-                                        price : <span>$</span>{price}
+                                        цена : {price}<span>ден.</span>
                                     </strong>
                                 </h4>
                                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                                    some info about the product:
+                                    Информации за производот:
                                 </p>
                                 <p className ="text-muted lead">{info}</p>
                                 {/*buttons*/}
                                 <div>
                                 <Link to="/">
-                                    <ButtonContainer>back to products</ButtonContainer>
+                                    <ButtonContainer>продолжи со купување</ButtonContainer>
                                 </Link>
                                 <ButtonContainer cart 
                                  disabled = {inCart ? true : false} onClick={()=>{
@@ -51,7 +51,7 @@ export default class Details extends Component {
                                     value.openModal(id);
                                 }}>
                                     
-                                    {inCart ? "inCart" : "add to cart"}
+                                    {inCart ? "додадено": "додади"}
                                 </ButtonContainer>
                                 </div>
                             </div>

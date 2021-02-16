@@ -18,18 +18,19 @@ export default class Navbar extends Component {
                 <ul className="navbar-nav align-items-center">
                     <li  className="nav-item ml-5">
                     <Link to="/" className="nav-link">
-                        home
+                        Дома
                     </Link>
                     </li>
                 
                 </ul>
+                
 
                 <Link to="/cart" className="ml-auto">
                     <ButtonContainer>
                         <span className="mr-2">
                             <i className="fas fa-cart-plus"/>
                         </span>
-                        my cart
+                        Кошничка
                     </ButtonContainer>
                 </Link>
             </div>

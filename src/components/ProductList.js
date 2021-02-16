@@ -3,6 +3,7 @@ import Product from './Product';
 import Title from "./Title";
 import{ProductConsumer} from "../context";
 import "../App.css";
+
 export default class ProductList extends Component {
     
     render() {
@@ -13,7 +14,7 @@ export default class ProductList extends Component {
 
                     <div className="image">
                         <img src="https://fdn.gsmarena.com/imgroot/news/19/12/top-phones-of-2019/-1220x526/gsmarena_000.jpg" alt="phone"/>
-                    <a href="#store"><button className="shop-now ">Купувај сега</button></a>
+                    <a href="#store"><button className="shop-now ">Повеќе</button></a>
                     </div>
                     <section class="about py-5" id="about">
 <div class="container">
@@ -22,8 +23,8 @@ export default class ProductList extends Component {
 
 <div class=" col-10 mx-auto col-md-6 my-5">
 
-<h1 class="text-capitalize">about <strong
- class="banner-title">Us</strong> 
+<h1 class="text-capitalize">за <strong
+ class="banner-title">Нас</strong> 
  </h1>
 
 <p class="my-4 text-muted w-75">
@@ -31,7 +32,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae est hi
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae est hic iusto cupiditate modi!
 
 </p>
-<a href="#store" class="explore text-uppercase">explore</a>
+<a href="#store" class="explore text-uppercase">Повеќе</a>
 
 </div>
 
@@ -47,7 +48,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae est hi
     
                     <div className="container " id="store">
 
-                        <Title name="our" title="products" />
+                        <Title name="" title="производи" />
                         
                         <div className="row">
                         <ProductConsumer>
