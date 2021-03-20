@@ -1,2 +1,2 @@
 tUser-agent:*
-Disallow:/components
+Disallow:/static
