@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -10,21 +10,10 @@
       content="Web site created using create-react-app"
     />
     <link rel="stylesheet" href="App.css" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
+   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <!--------------google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Permanent+Marker&display=swap" rel="stylesheet">
     <!------------------font awesome-->
@@ -87,33 +76,15 @@ function topFunction() {
 
     <div id="root"></div>
     
-    <footer>
+    <footer id="footer">
   
       <div class=" footer container-fluid">
       <div class="row">
-      <div class="col-md-6 footer-title">
-       <h1 class="text-capitalize text-center">
-      <img src="logo.svg" alt="store" className="navbar-brand" />
-      </h1>
-      <div class="footer-icons mt-3 d-flex justify-content-around flex-wrap">
+        
+
       
-      <a href="#" class="footer-icon">
-      <i class="fab fa-facebook"></i>
-      </a>
-      <a href="#" class="footer-icon">
-      <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#" class="footer-icon">
-      <i class="fab fa-instagram"></i>
-      </a>
-      <a href="#" class="footer-icon">
-      <i class="fab fa-google-plus"></i>
-      </a>
       
-      </div>
-      </div>
-      
-      <div class="col-md-6 footer-contact text-center text-capitalize ">
+      <div class="col-md-4 footer-contact text-center ">
       
       <h3 class="mb-2">Контакт</h3>
       
@@ -124,7 +95,7 @@ function topFunction() {
       <i class="fas fa-map"></i>
       </span>
       <span>
-      123 main street, san diego CA 90101
+      „Киро Минанов“ бр.5
       </span>
       
       </p>
@@ -150,13 +121,43 @@ function topFunction() {
       <i class="fas fa-envelope"></i>
       </span>
       <span>
-      email@email.com
+      vspaskovska@gmail.com
       </span>
       
       </p>
+      </div>    
+       <div class=" footer-location col-md-4">
+      
+      <form action="https://maps.google.com/maps" method="get" target="_blank">
+        <label for="saddr">Внеси локација:</label> <input class="inputStuff" name="saddr" type="text" />
+         <input name="daddr" type="hidden" value="Strumica" /> <button class="button" type="submit" value="Get directions">Добиј локација</button></form> 
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.7737490445456!2d22.641964115388053!3d41.44413067925899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a9fe4002f88417%3A0xc40c4fc38abdc5d4!2z0JrQuNGA0L4g0JzQuNC90LDQvdC-0LIsINCh0YLRgNGD0LzQuNGG0LA!5e0!3m2!1smk!2smk!4v1616249581605!5m2!1smk!2smk" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div class="col-md-4 footer-title">
+      <h1 class = "text-capitalize text-center">
+      <img src="logo.svg" alt="store" className="navbar-brand" />
+      </h1>
+      <div class="footer-icons mt-3 d-flex justify-content-around flex-wrap">
+      
+      <a href="https://www.facebook.com" class="footer-icon">
+      <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com" class="footer-icon">
+      <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" class="footer-icon">
+      <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com" class="footer-icon">
+      <i class="fab fa-youtube"></i>
+      </a>
+      
       </div>
       </div>
+      </div>
+ 
       </footer>
-    
+      
+      
   </body>
 </html>

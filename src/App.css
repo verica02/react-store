@@ -79,10 +79,10 @@ border: 0.1rem solid var(--mainDark) !important;
   left:70%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color:white;
+  background-color: var(--mainYellow);
+  color:#000;
   font-size: 18px;
-  padding: 12px 24px;
+  padding: 12px 14px;
   border:1px solid  black !important;
   cursor: pointer;
   border-radius:5px;
@@ -103,10 +103,10 @@ border: 0.1rem solid var(--mainDark) !important;
   left:75%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color:white;
+  background-color: var(--mainYellow);
+  color:rgb(0, 0, 0);
   font-size: 16px;
-  padding: 8px 24px;
+  padding: 8px 14px;
   border:1px solid black !important;
   cursor: pointer;
   border-radius:5px;
@@ -121,8 +121,8 @@ border: 0.1rem solid var(--mainDark) !important;
     
   }
   .explore {
-    background-color:blue !important;
-    color:white !important;
+    background-color:var(--lightBlue);
+    color:#000 !important;
     font-size: 16px;
     padding: 12px 24px;
     border:1px solid  blue !important;
@@ -140,6 +140,9 @@ border: 0.1rem solid var(--mainDark) !important;
   .footer-title{
     padding-bottom:20px;
   }
+  .inputStuff{
+    width:100px;
+  }
 }
 .container{
   margin-top: 100px;
@@ -148,6 +151,7 @@ border: 0.1rem solid var(--mainDark) !important;
 
 .footer-title
 {
+  
   background:var(--mainBlue);	
   color:black;
   padding-top:20px;
@@ -157,7 +161,7 @@ border: 0.1rem solid var(--mainDark) !important;
 }
 .footer-title .footer-icon 
 {
-	font-size:2rem;
+	font-size:2.2rem;
 	color:var(--mainWhite);	
 	transition: all 0.4 ease-in-out;
 }
@@ -173,21 +177,28 @@ border: 0.1rem solid var(--mainDark) !important;
 }
 .footer-contact .footer-icon:hover 
 {
-	color:var(--mainYellow);	
+	color:var(--lightBlue);	
 }
 .footer-contact{
-border:1px solid var(--mainBlue);
+
 padding-top:20px;
 padding-bottom: 0;
+background:#ffbe07b0;
 
 }
+.footer-location{
+  
+padding-top:50px;
+padding-bottom: 0;
+background: #fff;
+}
 footer{
-  padding-top: 130px;
+  padding-top: 260px;
 }
 .explore {
-  background-color: black;
-  color:white;
-  font-size: 16px;
+  background-color:var(--lightBlue);
+  color:#000;
+  font-size: 18px;
   padding: 12px 24px;
   border:1px solid  black !important;
   cursor: pointer;
@@ -234,4 +245,8 @@ position:relative;
 .btns button{
   padding:5px 10px;
   margin:10px 10px;
+}
+button {
+  border-radius: 0;
+  background-color: #ffbe07b0;
 }
