@@ -24,7 +24,7 @@ export default class Modal extends Component {
                             <h5>Додадено во кошничка</h5>
                             <img src={img} className="img-fluid" alt="product" />
                             <h5>{title}</h5>
-                            <h5 className="text-muted">price : {price} ден.</h5>
+                            <h5 className="text-muted">цена : {price} ден.</h5>
                             <Link to="/">
                                 <ButtonContainer onClick={()=>closeModal()}>
                                     назад
