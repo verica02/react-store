@@ -12,7 +12,8 @@ To handle the payment processing they can use Paypal checkout.
 
 ![image](https://user-images.githubusercontent.com/77109037/138824051-524ae8ae-e875-4f33-b2c1-a8bfc5d6759c.png)
 
-responsive, mobile-friendly.
+rResponsive, mobile-friendly.
+
 ![image](https://user-images.githubusercontent.com/77109037/138824180-80d4190f-c7b2-4d4e-8bc1-f1a50deaf363.png)
 ![image](https://user-images.githubusercontent.com/77109037/138824247-ef648d44-2fc6-4bf7-96b4-4f281b041b3b.png)
 
