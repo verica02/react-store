@@ -1,6 +1,6 @@
 # react-store
 
-🛒 A simple ecommerce website buit with React.
+🛒 A simple ecommerce website buit with React, CSS and HTML.
 
 ![image](https://user-images.githubusercontent.com/77109037/138823929-ef2b4289-f5ca-41b0-a71f-565c1466648b.png)
 
